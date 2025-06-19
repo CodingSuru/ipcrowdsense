@@ -1,4 +1,4 @@
-IPCrowdSense 👥
+# IPCrowdSense 👥
 
 IPCrowdSense is an AI-powered crowd monitoring system that uses computer vision to detect and count people in real-time via IP-based RTSP camera feeds. Powered by YOLOv11, it offers precise person detection, customizable boundary monitoring, and a web interface for live analytics and alerts. Ideal for security, crowd management, and analytics applications. 🚀
 Features ✨
@@ -12,7 +12,7 @@ JSON export for detection and violation data 💾
 Performance metrics (FPS, accuracy, system health) 📈
 Simple tracking for consistent person counting 🕒
 
-Demo 🎥
+# Demo 🎥
 Note: Replace this placeholder with a screenshot or GIF of your web interface showing boundary drawing and alerts.
 Installation ⚙️
 Prerequisites 🛠️
@@ -26,7 +26,7 @@ Flask 🌐
 RTSP-compatible camera 📡
 Web browser (Chrome/Firefox recommended) 🌍
 
-Steps 📋
+# Steps 📋
 
 Clone the Repository:
 git clone https://github.com/your-username/ipcrowdsense.git 📂
@@ -49,7 +49,7 @@ Note: Do not commit yolo11n.pt to GitHub due to size and licensing.
 
 
 
-Usage 🚀
+# Usage 🚀
 
 Start the Server:
 python main.py ▶️
@@ -80,7 +80,7 @@ Export analytics as JSON via the interface. 💾
 Example RTSP URL
 rtsp://admin:password123@192.168.1.100:554/h264
 
-Project Structure 🗂️
+# Project Structure 🗂️
 ipcrowdsense/
 ├── detection.py        # YOLO-based detection and tracking logic 🤖
 ├── main.py            # Flask server and camera handling 🌐
@@ -89,7 +89,7 @@ ipcrowdsense/
 ├── README.md          # Project documentation 📖
 └── .gitignore         # Git ignore file 🚫
 
-Configuration ⚙️
+# Configuration ⚙️
 
 RTSP URL: Set via the web interface. 🔗
 Max People: Configure per boundary for alerts. 👥
@@ -101,14 +101,14 @@ Max detections: max_det=50
 
 
 
-Performance Tips 🏎️
+# Performance Tips 🏎️
 
 Use yolo11n.pt for speed or yolo11s.pt for better accuracy. ⚖️
 Reduce frame resolution in detection.py (e.g., 640px). 📏
 Enable GPU for faster YOLO inference. 💻
 Lower max_det for fewer detections. 🔢
 
-Troubleshooting 🐞
+# Troubleshooting 🐞
 
 Camera Not Connecting:
 Check RTSP URL and network. 🌐
@@ -124,14 +124,14 @@ Verify yolo11n.pt exists and PyTorch/Ultralytics are installed. ✅
 
 
 
-Limitations ⚠️
+# Limitations ⚠️
 
 Requires stable network for RTSP streaming. 🌐
 Performance depends on hardware (CPU/GPU). 💻
 YOLO accuracy varies with lighting/crowd density. 💡
 Single-camera support (multi-camera planned). 📹
 
-Contributing 🤝
+# Contributing 🤝
 
 Fork the repo 🍴
 Create a branch: git checkout -b feature/your-feature 🌿
@@ -140,7 +140,8 @@ Push: git push origin feature/your-feature 📤
 Open a Pull Request 📬
 
 See CONTRIBUTING.md for details (create one if needed).
-License 📜
+
+# License 📜
 Licensed under the MIT License. 🆓
 Acknowledgments 🙌
 
